@@ -1,0 +1,95 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerA {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+
+  height: 90%;
+  border-radius: 10px;
+  width: 40%;
+  padding-top: 45px;
+}
+.heading {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.para {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+}
+.image-container {
+  width: 90%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heads-tails-image {
+  width: 180px;
+  height: 180px;
+  padding: 20px;
+}
+.button-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  background-color: #e2a139;
+  height: 40px;
+  width: 108px;
+  color: #a35200;
+  border-width: 0px;
+  border-radius: 5px;
+}
+.scores-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin-top: 55px;
+}
+@media screen and (min-width: 500px) {
+  .scores-container {
+    flex-direction: row;
+  }
+}
+.total-score-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-status,
+.score-text {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #334155;
+}
+@media screen and (min-width: 768px) {
+  .score-status,
+  .score-text {
+    font-size: 18px;
+  }
+}
